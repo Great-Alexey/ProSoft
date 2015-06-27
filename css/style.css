@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clear {
+    clear: both;
+}
+.block {
+    width: 1080px;
+    margin: 0 auto;
+}
+header {
+    padding: 8px 80px;
+    background: #f2f2f2;
+}
+.leftHead {
+    float: left;
+}
+.leftHead p {
+    float: left;
+}
+.leftHead p:first-child {
+    margin-right: 15px;
+}
+.rightHead {
+    float: right;
+}
+.rightHead a {
+    display: block;
+    float: left;
+    padding: 0 6px;
+    color: #000;
+    text-decoration: none;
+    border-right: 1px solid #000;
+}
+.rightHead a:last-child {
+    border-right: 0px;
+}
+
+main {
+    background: #f2f2f2;
+}
+.top {
+    background: #fff;
+    padding: 20px 50px 20px 80px;
+    position: relative;
+}
+.top img {
+    float: left;
+}
+.top nav {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    float: left;
+    padding: 20px 30px;
+    background: #f2f2f2;
+    margin-right: 2px;
+    border-radius: 20px 20px 0 0 ;
+}
+nav a:last-child {
+    margin-right: 0;
+}
+.active {
+    background: linear-gradient(#8cb400,#94ba00);
+    color: #edffdb;
+}
+.center {
+    width: 880px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    background: linear-gradient(#94ba00,#3d6c00);
+    border-radius: 0 0 20px 20px;
+    padding: 50px;
+}
+.center img {
+    float: right;
+}
+.centerRight {
+    width: 320px;
+    float: left;
+}
+.centerRight > p {
+    color: #edffdb;
+    margin: 20px 0 30px 0;
+}
+h1 {
+    color: #fff;
+    font-size: 60px;
+    font-family: Century Gothic;
+}
+h2 {
+    font-size: 40px;
+    font-family: Century Gothic;
+}
+#button1 {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: #608630;
+    font-size: 18px;
+}
+.bottom {
+    padding: 0 100px;
+}
+.leftBottom {
+    width: 280px;
+    float: left;
+}
+.leftBottom > div {
+    margin-top: 30px;
+}
+.leftBottom div div {
+    width: 170px;
+    float: right;
+}
+.leftBottom div div p:first-child,
+.rightMenu div p:first-child {
+    color: #000;
+}
+.leftBottom div div p,
+.rightMenu div p {
+    margin: 10px 0;
+    font-size: 12px;
+    color: #a88195;
+    font-family: Century Gothic;
+}
+.rightBottom {
+    width: 550px;
+    float: right;
+}
+.rightMenu {
+    margin: 20px 0;
+    height: 130px;
+    position: relative;
+}
+.rightMenu:last-child {
+    margin: 20px 0 5px 0;
+}
+.button2 {
+    width: 120px;
+    height: 35px;
+    font-family: Tahoma;
+    font-size: 14px;
+    border-radius: 10px;
+    background: linear-gradient(#fdfdfd,#e1e1e1);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.rightBottom div div {
+    width: 430px;
+    float: right;
+}
