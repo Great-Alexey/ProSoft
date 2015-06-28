@@ -16,6 +16,7 @@ function active(){
 for(i=0;i<a.length;i++){
     a[i].addEventListener("click", active, false);
 }
+
 $(document).ready(function(){   
 var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "Desember" ]; 
 var dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thuesday","Friday","Sutarday"];
@@ -38,18 +39,13 @@ setInterval(function(){
     $('#time').html(hours +':'+ minutes +':'+ seconds) ;
 }, 1000);
 });
-$('#olo').click(function(){
-    $(this).animate({width: '200px'},1000, function(){
-        $('#olo').css({background: '#fff'});
-    });
-    
-});
+
 var i = 0;
 $('#button1').click(function(){
     if(i===0){
     $('.center .centerRight').animate({height: '630px'},1000, function(){
         $('#p').css({display: 'block'});
-        $('#button1').text('Closet');
+        $('#button1').text('CLOSET');
     });  
     i=1;
     }
@@ -60,4 +56,18 @@ $('#button1').click(function(){
     });       
         i=0; 
     }
+});
+
+$(document).ready(function(){
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('#up').fadeIn();
+} else {
+$('#up').fadeOut();
+}
+});
+$('#up').click(function(){
+   $('body').animate({ scrollTop: 0 }, 600);
+    return false;
+}); 
 });
