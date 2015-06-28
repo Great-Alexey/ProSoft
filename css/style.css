@@ -19,16 +19,16 @@ button {
     margin: 0 auto;
 }
 header {
-    padding: 8px 30px;
-    
+    padding: 8px 30px;  
 }
 .leftHead {
     float: left;
 }
-.leftHead p {
+#time,
+#date {
     float: left;
 }
-.leftHead p:first-child {
+.leftHead div:first-child {
     margin-right: 15px;
 }
 .rightHead {
