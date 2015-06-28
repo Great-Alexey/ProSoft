@@ -183,3 +183,13 @@ h2 {
     width: 430px;
     float: right;
 }
+#olo {
+    width: 100px;
+    height: 100px;
+    background: #dfdfdf;
+}
+#p {
+    display: none;
+    width: 500px;
+
+}

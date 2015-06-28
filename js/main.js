@@ -38,3 +38,26 @@ setInterval(function(){
     $('#time').html(hours +':'+ minutes +':'+ seconds) ;
 }, 1000);
 });
+$('#olo').click(function(){
+    $(this).animate({width: '200px'},1000, function(){
+        $('#olo').css({background: '#fff'});
+    });
+    
+});
+var i = 0;
+$('#button1').click(function(){
+    if(i===0){
+    $('.center .centerRight').animate({height: '630px'},1000, function(){
+        $('#p').css({display: 'block'});
+        $('#button1').text('Closet');
+    });  
+    i=1;
+    }
+    else{
+        $('.center .centerRight').animate({height: '314px'},1000, function(){
+        $('#p').css({display: 'none'});
+        $('#button1').text('MORE INFO');
+    });       
+        i=0; 
+    }
+});
