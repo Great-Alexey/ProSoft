@@ -80,10 +80,10 @@ nav a:last-child {
     color: #edffdb;
 }
 .center,
-.center1,
 .center2,
 .center3,
-.center4 {
+.center4,
+.center5 {
     width: 880px;
     margin: 0 auto;
     margin-bottom: 45px;
@@ -91,13 +91,18 @@ nav a:last-child {
     border-radius: 0 0 20px 20px;
     padding: 50px;
 }
-.center1,
+
 .center2,
 .center3,
-.center4 {
+.center4,
+.center5 {
     display: none;
 }
-.center img {
+.center img,
+.center2 img,
+.center3 img,
+.center4 img,
+.center5 img {
     float: right;
 }
 .centerRight {
@@ -153,12 +158,12 @@ h2 {
     color: #a88195;
     font-family: Century Gothic;
 }
-.rightMenu div p a {
-    color: #000;
-}
 .rightBottom {
     width: 550px;
     float: right;
+}
+.rightMenu div p a {
+    color: #000;
 }
 .rightMenu {
     margin: 20px 0;
@@ -167,6 +172,10 @@ h2 {
 }
 .rightMenu:last-child {
     margin: 20px 0 5px 0;
+}
+.rightMenu div {
+    width: 430px;
+    float: right;
 }
 .button2 {
     width: 120px;
@@ -179,10 +188,6 @@ h2 {
     bottom: 0;
     right: 0;
 }
-.rightBottom div div {
-    width: 430px;
-    float: right;
-}
 #p {
     display: none;
     width: 500px;
@@ -192,4 +197,8 @@ h2 {
     position: fixed;
     bottom: 50px;
     left: 20px;
+}
+.on {
+    display: none;
+    width: 430px;
 }
