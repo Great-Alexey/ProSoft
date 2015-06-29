@@ -44,10 +44,10 @@ setInterval(function(){
 
 function toggleText() {
     var $this = $(this),
-        $on = $('.on'),
-        $rightMenu = $('.rightMenu'),
+        $rightMenu = $this.parents('.rightMenu'),
+        $on = $rightMenu.find('.on'),
         i = $this.data('toggle');
-
+    
     if(!i || i === '0'){
         $rightMenu.animate({height: '230px'},1000, function(){
             $on.css({display: 'block'});
