@@ -85,39 +85,6 @@ $('#button1').click(function(){
     }
 });
 
-//$('#button6').click(function(){
-//    if(i===0){
-//    $('#rightMenu1').animate({height: '230px'},1000, function(){
-//        $('#on6').css({display: 'block'});
-//        $('#button6').text('CLOSET');
-//    });
-//    i=1;
-//    }
-//    else{ 
-//        $('#rightMenu1').animate({height: '130px'},1000, function(){
-//        $('#on6').css({display: 'none'});
-//        $('#button6').text('Read More');
-//    });              
-//        i=0; 
-//    }
-//});    
-//
-//   $('#button7').click(function(){ 
-//    if(i===0){
-//    $('#rightMenu2').animate({height: '230px'},1000, function(){
-//        $('#on7').css({display: 'block'});
-//        $('#button7').text('CLOSET');
-//    });
-//    i=1;
-//    }
-//    else{ 
-//        $('#rightMenu2').animate({height: '130px'},1000, function(){
-//        $('#on7').css({display: 'none'});
-//        $('#button7').text('Read More');
-//    });               
-//        i=0; 
-//    }
-//});
 
 
 $(document).ready(function(){
